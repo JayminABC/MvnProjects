@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-21T15:14:40 EDT" name="Suite1" finished-at="2021-07-21T15:15:54 EDT" duration-ms="73448">
+    <groups>
+    </groups>
+    <test started-at="2021-07-21T15:14:40 EDT" name="Regression1" finished-at="2021-07-21T15:15:54 EDT" duration-ms="73448">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:14:40 EDT" name="setup" finished-at="2021-07-21T15:14:52 EDT" duration-ms="11763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="WrongEmailTest()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:14:52 EDT" name="WrongEmailTest" finished-at="2021-07-21T15:14:55 EDT" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongEmailTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:14:55 EDT" name="tearDown" finished-at="2021-07-21T15:14:55 EDT" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:14:55 EDT" name="setup" finished-at="2021-07-21T15:15:02 EDT" duration-ms="6926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="rightEmailAndPassword()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:15:02 EDT" name="rightEmailAndPassword" finished-at="2021-07-21T15:15:17 EDT" duration-ms="14229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightEmailAndPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:15:17 EDT" name="tearDown" finished-at="2021-07-21T15:15:17 EDT" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:15:17 EDT" name="setup" finished-at="2021-07-21T15:15:22 EDT" duration-ms="4724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wrongEmailAndPasswordTest()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:15:22 EDT" name="wrongEmailAndPasswordTest" finished-at="2021-07-21T15:15:25 EDT" duration-ms="2523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongEmailAndPasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:15:25 EDT" name="tearDown" finished-at="2021-07-21T15:15:25 EDT" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:15:25 EDT" name="setup" finished-at="2021-07-21T15:15:34 EDT" duration-ms="8862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wrongpasswordTest()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:15:34 EDT" name="wrongpasswordTest" finished-at="2021-07-21T15:15:37 EDT" duration-ms="2794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongpasswordTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@20ccf40b]" started-at="2021-07-21T15:15:37 EDT" name="tearDown" finished-at="2021-07-21T15:15:38 EDT" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.HomePageTest@3e11f9e9]" started-at="2021-07-21T15:15:38 EDT" name="setup" finished-at="2021-07-21T15:15:50 EDT" duration-ms="11821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Searchofcooker()[pri:0, instance:tests.HomePageTest@3e11f9e9]" started-at="2021-07-21T15:15:50 EDT" name="Searchofcooker" finished-at="2021-07-21T15:15:52 EDT" duration-ms="2150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Searchofcooker -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.HomePageTest@3e11f9e9]" started-at="2021-07-21T15:15:52 EDT" name="teardown" finished-at="2021-07-21T15:15:54 EDT" duration-ms="1343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 13, Time elapsed: 52.92 s <<< FAILURE! - in TestSuite
+setup(tests.HomePageTest)  Time elapsed: 48.826 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //span[contains(text(),'My account')] (tried for 40 second(s) with 500 milliseconds interval)
+	at tests.HomePageTest.setup(HomePageTest.java:30)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //span[contains(text(),'My account')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8GAKHLN', ip: '192.168.2.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210721174149, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 16516, moz:profile: C:\Users\jaymi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1e5fcd3d-dcd7-4ed8-84f1-27b8edc19d05
+*** Element info: {Using=xpath, value=//span[contains(text(),'My account')]}
+	at tests.HomePageTest.setup(HomePageTest.java:30)
+
+setup(tests.LoginTest)  Time elapsed: 52.729 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8GAKHLN', ip: '192.168.2.152', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 90.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210721174149, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 22888, moz:profile: C:\Users\jaymi\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a78bb380-8254-4404-8542-1af9860e32f9
+	at tests.LoginTest.setup(LoginTest.java:31)
+
